@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Shon Hacmon - Software Engineer Portfolio",
   "main": "index.html",
-  "homepage": "https://seanhakmon.github.io/Portfolio",
+  "homepage": "https://seanhacmon.github.io/Portfolio",
   "scripts": {
     "deploy": "gh-pages -d ."
   },
