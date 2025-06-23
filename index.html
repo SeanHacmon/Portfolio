@@ -111,6 +111,7 @@
         }
 
         .section {
+            border: 4px solid #bac2e5;
             padding: 4rem 0;
             background: rgba(20, 20, 20, 0.8);
             margin: 2rem 0;
@@ -122,7 +123,7 @@
         .section h2 {
             text-align: center;
             font-size: 2.5rem;
-            margin-bottom: 3rem;
+            /* margin-bottom: 3rem; */
             color: #ffffff;
             position: relative;
         }
@@ -153,7 +154,7 @@
             border-radius: 50%;
             overflow: hidden;
             margin: 0 auto;
-            border: 4px solid #667eea;
+            border: 4px solid #bac2e5;
             box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
         }
 
@@ -188,13 +189,13 @@
         }
 
         .language-card {
-            background: rgba(41, 9, 69, 0.95);
+            background: rgba(38, 33, 42, 0.95);
             border-radius: 15px;
             padding: 1.5rem;
             text-align: center;
             box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
             transition: all 0.3s ease;
-            border: 4px solid #667eea;
+            border: 4px solid #bac2e5;
             /* backdrop-filter: blur(10px); */
         }
 
@@ -278,10 +279,12 @@
         }
 
         .project-card {
+            margin-top: 10%;
             align-items: center;
             align-content: center;
             background: rgba(20, 20, 20, 0.8); /* Changed from white to match site background */
             border-radius: 15px;
+            /* border: 4px solid #bac2e5; */
             overflow: hidden;
             box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3); /* Adjusted shadow */
             transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -488,6 +491,7 @@
             margin-top: 2rem;
             border-radius: 20px 20px 0 0;
             color: #ffffff;
+            border: 4px solid #bac2e5;
         }
 
         @keyframes fadeInUp {
@@ -653,19 +657,19 @@
                 <h2>Projects</h2>
                 <div class="projects-grid">
                     <div class="project-card">
-                        <h3 style="margin-top: 10px; text-align: center;">Grocery Web App</h3>
+                        <h3 style=" text-align: center;">Grocery Web App</h3>
                         <p style="text-align: center;">A web application that allow users to search for products in israeli supermarkets and compare prices.</p>
                         <br>
                         <div class="project-image-container">
                             <div class="project-image-slider" data-slider="grocery">
                                 <div class="project-image">
-                                    <img src="images/groceryAppImages/grocery1.png" alt="Grocery App Screenshot 1"/>
+                                    <img src="./images/groceryAppImages/grocery1.png" alt="Grocery App Screenshot 1"/>
                                 </div>
                                 <div class="project-image">
-                                    <img src="images/groceryAppImages/grocery2.png" alt="Grocery App Screenshot 2"/>
+                                    <img src="./images/groceryAppImages/grocery2.png" alt="Grocery App Screenshot 2"/>
                                 </div>
                                 <div class="project-image">
-                                    <img src="images/groceryAppImages/grocery3.png" alt="Grocery App Screenshot 3"/>
+                                    <img src="./images/groceryAppImages/grocery3.png" alt="Grocery App Screenshot 3"/>
                                 </div>
                             </div>
                             <button class="slider-arrows slider-prev" onclick="changeSlide('grocery', -1)">‹</button>
@@ -715,13 +719,13 @@
                         <div style="width: 30%;" class="project-image-container">
                             <div class="project-image-slider" data-slider="insect">
                                 <div class="project-image">
-                                    <img src="images/InsectAppImages/insectApp1.jpg" alt="Insect App Screenshot 1"/>
+                                    <img src="./images/InsectAppImages/insectApp1.jpg" alt="Insect App Screenshot 1"/>
                                 </div>
                                 <div class="project-image">
-                                    <img src="images/insectAppImages/insectApp2.jpg" alt="Insect App Screenshot 2"/>
+                                    <img src="./images/insectAppImages/insectApp2.jpg" alt="Insect App Screenshot 2"/>
                                 </div>
                                 <div class="project-image">
-                                    <img src="images/insectAppImages/insectApp3.jpg" alt="Insect App Screenshot 3"/>
+                                    <img src="./images/insectAppImages/insectApp3.jpg" alt="Insect App Screenshot 3"/>
                                 </div>
                             </div>
                             <button class="slider-arrows slider-prev" onclick="changeSlide('insect', -1)">‹</button>
